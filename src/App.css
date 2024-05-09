@@ -34,11 +34,11 @@
 }
 
 .navbar .active {
-    color: #185ee0 !important;
+    color: #8dc643 !important;
 }
 
 .navbar li a:hover {
-    color: #185ee0 !important;
+    color: #8dc643 !important;
 }
 
 .hero {
@@ -90,7 +90,7 @@
 }
 
 .section-bg {
-    background: linear-gradient(0deg, rgba(24, 94, 224, .91), rgba(24, 94, 224, .91));
+    background: linear-gradient(0deg, #8dc643e8, #8dc643e8);
     color: #fff !important;
 }
 
@@ -133,7 +133,7 @@ footer ul li {
     position: relative;
     bottom: 48px;
     background: #ffffff;
-    color: #185ee0;
+    color: #8dc643;
     padding: 11px 40px;
     margin-bottom: 0;
     height: auto;
@@ -150,13 +150,13 @@ footer ul li {
 }
 
 #emailsub [type="submit"]:hover {
-    background: #185ee0;
+    background: #8dc643;
     color: #ffffff;
 }
 
 .footer-title {
     margin-bottom: 15px;
-    color: #185ee0;
+    color: #8dc643;
 }
 
 footer ul li i {
@@ -177,7 +177,7 @@ section {
     font-size: 32px;
     font-weight: 700;
     position: relative;
-    color: #185ee0
+    color: #8dc643
 }
 
 .section-title p {
@@ -212,7 +212,7 @@ button:focus:not(:focus-visible) {
 
 .accordion-flush .accordion-button:not(.collapsed) {
     box-shadow: none;
-    color: #185ee0;
+    color: #8dc643;
     background-color: transparent;
 }
 
@@ -233,7 +233,7 @@ button:focus:not(:focus-visible) {
 .features .icon-box i,
 .values .icon-box i {
     font-size: 28px;
-    color: #185ee0;
+    color: #8dc643;
     background-color: #e6eef9;
     padding: 15px 18px;
     border-radius: 9999px;
@@ -242,10 +242,8 @@ button:focus:not(:focus-visible) {
 .features .icon-box h4,
 .values .icon-box h4 {
     font-weight: 600;
-    border-bottom: 2px solid #fff;
     width: fit-content;
     margin: 25px auto 8px;
-    padding-bottom: 5px;
     font-size: 22px
 }
 
@@ -258,7 +256,7 @@ button:focus:not(:focus-visible) {
 }
 
 .mobile-nav-toggle {
-    color: #185ee0;
+    color: #8dc643;
     font-size: 40px;
     cursor: pointer;
     display: none;
@@ -378,7 +376,7 @@ button:focus:not(:focus-visible) {
     }
 
     .mobile-nav .active {
-        color: #185ee0 !important;
+        color: #8dc643 !important;
     }
 
     .mobile-nav-show {
@@ -388,7 +386,7 @@ button:focus:not(:focus-visible) {
 
 .navbar-brand {
     font-size: 22px !important;
-    color: #185ee0 !important;
+    color: #8dc643 !important;
     font-weight: bolder !important;
 }
 
@@ -439,7 +437,7 @@ button:focus:not(:focus-visible) {
 .input-group-text {
     background: none !important;
     border-right: 0 !important;
-    color: #185ee0 !important;
+    color: #8dc643 !important;
 }
 
 .form-control {
@@ -456,12 +454,12 @@ button:focus:not(:focus-visible) {
     width: fit-content !important;
     padding: 8px 35px !important;
     border-radius: 9999px !important;
-    background-color: #185ee0 !important;
-    border-color: #185ee0 !important;
+    background-color: #8dc643 !important;
+    border-color: #8dc643 !important;
 }
 
 .section-title hr {
-    border: 2px solid #185ee0;
+    border: 2px solid #8dc643;
     width: 40px;
     margin: 1.5rem auto;
     margin-bottom: 30px;
