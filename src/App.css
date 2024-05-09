@@ -429,7 +429,7 @@ button:focus:not(:focus-visible) {
     margin: 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: all 0.3s ease-in-out;
-    padding: 18px 0;
+    padding: 22px 0;
 }
 
 .input-group-text {
@@ -462,4 +462,8 @@ button:focus:not(:focus-visible) {
     margin: 1.5rem auto;
     margin-bottom: 30px;
     opacity: 1;
+}
+
+footer .logo img {
+    margin-bottom: 15px;
 }

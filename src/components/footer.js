@@ -7,10 +7,9 @@ const Footer = () => {
             <div className="container">
                 <div className="row pb-4 gap-5">
                     <div className="col-lg-4 col-md-6">
-                        <h3 className="footer-title">
-                            <i className="bi bi-airplane-engines-fill" />
-                            &nbsp;&nbsp;Malarify
-                        </h3>
+                    <Link href="/" className="logo me-auto me-lg-0">
+                        <img src="/logo.png" alt="[Company Name]" height={25} />
+                    </Link>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
                             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim

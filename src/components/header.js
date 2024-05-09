@@ -27,9 +27,8 @@ const Header = () => {
     return (
         <header id="header" className={`header fixed-top ${isSticky ? 'header-scroll' : ''}`}>
             <div className="container d-flex justify-content-between">
-                <Link to="/" className="navbar-brand">
-                    <i className="bi bi-airplane-engines-fill" />
-                    &nbsp;&nbsp;Malarify
+                <Link href="/" className="logo me-auto me-lg-0">
+                    <img src="/logo.png" alt="[Company Name]" height={25} />
                 </Link>
                 <nav
                     id="navbar"
