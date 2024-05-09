@@ -14,7 +14,13 @@ function App() {
       <Header />
       <div className="hero">
         <div className="hero-text" data-aos="fade-up">
-          <h1 className='mb-5'>Lorem ipsum dolor sit amet, consectetur.</h1>
+          <h1 className=''>Lorem ipsum dolor sit amet, consectetur.</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
+            efficitur massa sit amet cursus.
+          </p>
           <a href="">Learn More</a>
         </div>
       </div>

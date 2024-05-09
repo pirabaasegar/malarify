@@ -43,7 +43,7 @@
 
 .hero {
     margin: 25px 75px;
-    background: url(../public/hero.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images6.alphacoders.com/667/667059.jpg);
     border-radius: 35px;
     position: relative;
     background-repeat: no-repeat;
@@ -51,38 +51,42 @@
     min-height: 700px;
     margin-top: 100px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 40px;
+    display: flex;
 }
 
 .hero-text {
     color: #000;
-    height: 100%;
     padding: 5rem;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-text h1 {
     font-size: 4rem;
     font-weight: 600;
-    color: #185ee0;
+    color: #fff;
     line-height: 1.1;
+    text-align: center;
 }
 
 .hero-text p {
     width: 65%;
+    color: #fff;
 }
 
 .hero-text a {
-    background: #185ee0;
     color: #fff !important;
-    border-radius: 32px;
-    border: none;
-    padding: 15px 25px;
     transition: all .2s ease-in-out;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
 }
 
 .hero-text a:hover {
-    background-color: #185ee0;
     color: #fff !important;
+    border-bottom: 2px solid #fff;
 }
 
 .section-bg {
