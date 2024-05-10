@@ -75,6 +75,7 @@
 .hero-text p {
     width: 65%;
     color: #fff;
+    text-align: center;
 }
 
 .hero-text a {
@@ -177,13 +178,15 @@ section {
     font-size: 32px;
     font-weight: 700;
     position: relative;
-    color: #8dc643
+    color: #8dc643;
+    margin: auto auto 40px;
 }
 
-.section-title p {
-    margin: auto auto 40px;
-    max-width: 635px;
-    color: #939393
+.section-title span {
+    color: #939393;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .accordion-item {
@@ -406,9 +409,7 @@ button:focus:not(:focus-visible) {
     color: #fff;
 }
 
-.section-bg .section-title p {
-    margin: auto auto 40px;
-    max-width: 635px;
+.section-bg .section-title span {
     color: #fff
 }
 

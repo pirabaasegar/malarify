@@ -8,6 +8,7 @@ import Solution from './Solution';
 import About from './About';
 
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import AOS from 'aos';
 

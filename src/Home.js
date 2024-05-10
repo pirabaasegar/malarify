@@ -14,44 +14,30 @@ function App() {
       <Header />
       <div className="hero">
         <div className="hero-text" data-aos="fade-up">
-          <h1 className=''>Lorem ipsum dolor sit amet, consectetur.</h1>
+          <h1 className=''>Empowering Communities, One Flight at a Time.</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
-            efficitur massa sit amet cursus.
+            Malarify Drones introduces a pioneering healthcare solution in Nigeria, deploying a fleet of drones to swiftly deliver life-saving treatments to remote areas, aiming to bridge the gap between medical resources and underserved communities nationwide.
           </p>
-          <a href="">Learn More</a>
+          <a href="/about">Learn More</a>
         </div>
       </div>
       <section id="problem" className="problem" data-aos="fade-up">
         <div className="section-title pb-0">
-          <h2>The Problem</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
-            efficitur massa sit amet cursus.
-          </p>
+          <span>What's the problem?</span>
+          <h2>The Toll of Inefficient Treatment Transportation in Nigeria</h2>
         </div>
         <div className="container">
           <div className="row justify-content-center gap-5">
             <div className="col-lg-4 col-md-6">
               <img
-                src="/driver.svg"
+                src="/medicine.svg"
                 alt="Delivery"
                 className="img-fluid"
               />
             </div>
             <div className="col-lg-5 col-md-6">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                rhoncus fermentum sem, eu mattis mi sollicitudin at. Nullam tempus
-                erat in congue varius. Mauris vitae eros sagittis, porttitor metus
-                vitae, egestas sapien. Nulla facilisi. Praesent eu congue libero,
-                vel pharetra ligula. Suspendisse tempus laoreet est eget imperdiet.
-                Integer laoreet lectus a enim tincidunt mattis. Pellentesque
-                volutpat.
+                In Nigeria, the burden of malaria is immense, with over 34% of global cases reported within its borders. Tragically, a significant number of lives are lost each year due to the inefficiency of transporting essential malaria treatments. This ineffective transportation system contributes to delays in delivering medications to those in need, leading to preventable deaths and exacerbating the already dire malaria crisis in the country. The lack of proper infrastructure and logistical support compounds the challenges of distributing malaria treatments efficiently across Nigeria's vast and often remote regions.
               </p>
             </div>
           </div>
@@ -64,33 +50,27 @@ function App() {
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
               <div className="icon-box">
                 <i className="bi bi-star" />
-                <h4>Feature #1</h4>
+                <h4>Swift Delivery to Remote Areas</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                  tincidunt arcu eu lorem rutrum iaculis. Phasellus at rutrum
-                  libero. Pellentesque.
+                  Malarify Drones stationed at every health facility ensure timely delivery of malaria treatments to underserved communities, bridging resource gaps.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
               <div className="icon-box">
                 <i className="bi bi-star" />
-                <h4>Feature #2</h4>
+                <h4>Efficient Healthcare Delivery</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                  tincidunt arcu eu lorem rutrum iaculis. Phasellus at rutrum
-                  libero. Pellentesque.
+                  By directly reaching remote areas, Malarify Drones optimize resource allocation, minimizing costs while ensuring equitable access to healthcare.
                 </p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div className="icon-box">
                 <i className="bi bi-star" />
-                <h4>Feature #3</h4>
+                <h4>Equity and Accessibility</h4>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                  tincidunt arcu eu lorem rutrum iaculis. Phasellus at rutrum
-                  libero. Pellentesque.
+                  Malarify Drones revolutionize healthcare access, delivering life-saving treatments swiftly to underserved areas, promoting equity and empowering communities.
                 </p>
               </div>
             </div>
@@ -100,13 +80,8 @@ function App() {
       <hr className="divider" />
       <section id="experts" className="experts">
         <div className="section-title pb-0" data-aos="fade-up">
-          <h2>What Experts Say</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
-            efficitur massa sit amet cursus.
-          </p>
+          <span>What Experts Say</span>
+          <h2>Revolutionizing Healthcare Delivery in Nigeria</h2>
         </div>
         <div className="container">
           <div className="row justify-content-center gap-5">
@@ -115,24 +90,14 @@ function App() {
               data-aos="fade-up"
             >
               <img
-                src="/process.svg"
+                src="/experts.svg"
                 alt="Delivery"
                 className="img-fluid"
               />
             </div>
             <div className="col-lg-5 col-md-6">
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                rhoncus fermentum sem, eu mattis mi sollicitudin at. Nullam tempus
-                erat in congue varius. Mauris vitae eros sagittis, porttitor metus
-                vitae, egestas sapien. Nulla facilisi. Praesent eu congue libero,
-                vel pharetra ligula. Suspendisse tempus laoreet est eget imperdiet.
-                Integer laoreet lectus a enim tincidunt mattis. Pellentesque
-                volutpat mollis consectetur. Etiam placerat mattis condimentum. Nam
-                ut eleifend dolor. Pellentesque ac massa porttitor, malesuada felis
-                sit amet, lacinia massa. Aliquam non lacus velit. Morbi fermentum
-                quam justo, et volutpat nibh bibendum vehicula. Donec quam lorem,
-                viverra ut massa eu, consequat porta.
+                With the introduction of Malarify Drones, Nigeria stands at the cusp of a transformative shift in healthcare accessibility. Experts commend the innovative approach, recognizing its potential to significantly reduce the burden of malaria and improve overall healthcare outcomes. By strategically stationing drones at every health facility and utilizing cutting-edge technology for swift and reliable deliveries, Malarify Drones addresses the critical issue of transportation inefficiency plaguing the nation. This solution not only saves lives by ensuring timely access to essential treatments but also fosters economic sustainability by minimizing infrastructure costs and optimizing resource allocation.
               </p>
             </div>
           </div>
@@ -141,12 +106,8 @@ function App() {
       <hr className="divider" />
       <section id="faq" className="faq section-bg">
         <div className="section-title pb-0" data-aos="fade-in">
-          <h2>Frequently Asked Questions</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam.
-          </p>
+          <span>Frequently Asked Questions</span>
+          <h2>Revolutionizing Healthcare Delivery in Nigeria</h2>
         </div>
         <div className="container" style={{ maxWidth: 1000 }}>
           <div className="row">
@@ -159,7 +120,7 @@ function App() {
                     type="button"
                     data-bs-toggle="collapse"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    How does Malarify Drones ensure the safety and reliability of medical deliveries to remote areas in Nigeria?
                   </button>
                 </h2>
                 <div
@@ -168,10 +129,7 @@ function App() {
                   data-bs-parent="#faq-group-2"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.Maecenas at turpis vitae dui laoreet
-                    interdum. Nulla malesuada efficitur massa sit amet cursus.
+                    Malarify Drones prioritizes safety and reliability through precise route mapping and obstacle avoidance technology. Our UAVs are equipped to navigate vast distances with precision, ensuring efficient and secure deliveries to even the most remote communities.
                   </div>
                 </div>
               </div>
@@ -183,7 +141,7 @@ function App() {
                     type="button"
                     data-bs-toggle="collapse"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    What measures does Malarify Drones take to address potential concerns about the cost-effectiveness of drone-based healthcare delivery in Nigeria?
                   </button>
                 </h2>
                 <div
@@ -192,10 +150,7 @@ function App() {
                   data-bs-parent="#faq-group-2"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.Maecenas at turpis vitae dui laoreet
-                    interdum. Nulla malesuada efficitur massa sit amet cursus.
+                    Malarify Drones prioritizes economic viability by minimizing infrastructure costs and optimizing resource allocation. By reaching underserved areas directly, we aim to reduce long-term healthcare expenses, contributing to economic sustainability and affordability of healthcare services.
                   </div>
                 </div>
               </div>
@@ -207,7 +162,7 @@ function App() {
                     type="button"
                     data-bs-toggle="collapse"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    How does Malarify Drones ensure equitable access to healthcare resources across diverse communities in Nigeria?
                   </button>
                 </h2>
                 <div
@@ -216,10 +171,7 @@ function App() {
                   data-bs-parent="#faq-group-2"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.Maecenas at turpis vitae dui laoreet
-                    interdum. Nulla malesuada efficitur massa sit amet cursus.
+                    Malarify Drones operates on a strategic basis, with drones stationed at major hospitals and dispatched on schedules to deliver essential medical supplies to smaller local healthcare facilities in towns and villages. This ensures equitable access to healthcare resources, bridging the gap between urban centers and remote areas.
                   </div>
                 </div>
               </div>
@@ -231,7 +183,7 @@ function App() {
                     type="button"
                     data-bs-toggle="collapse"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    What technological advancements enable Malarify Drones to excel in speed, reliability, and safety in healthcare delivery?
                   </button>
                 </h2>
                 <div
@@ -240,10 +192,7 @@ function App() {
                   data-bs-parent="#faq-group-2"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.Maecenas at turpis vitae dui laoreet
-                    interdum. Nulla malesuada efficitur massa sit amet cursus.
+                    Malarify Drones harnesses cutting-edge technology, including precise route mapping, obstacle avoidance systems, and real-time monitoring, to ensure efficient and secure deliveries. These advancements enhance speed, reliability, and safety, allowing us to deliver life-saving treatments swiftly to underserved communities.
                   </div>
                 </div>
               </div>
@@ -255,7 +204,7 @@ function App() {
                     type="button"
                     data-bs-toggle="collapse"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    How does Malarify Drones contribute to the overall impact on public health in Nigeria, beyond the immediate delivery of medical supplies?
                   </button>
                 </h2>
                 <div
@@ -264,10 +213,7 @@ function App() {
                   data-bs-parent="#faq-group-2"
                 >
                   <div className="accordion-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                    enim ad minim veniam.Maecenas at turpis vitae dui laoreet
-                    interdum. Nulla malesuada efficitur massa sit amet cursus.
+                    Malarify Drones not only delivers life-saving treatments swiftly to underserved areas but also promotes equity and empowers the nation toward a healthier future. By revolutionizing healthcare access and bridging the gap between medical resources and remote communities, we pave the way for a more resilient healthcare system nationwide.
                   </div>
                 </div>
               </div>
@@ -275,7 +221,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="contact" className="contact">
+      {/*<section id="contact" className="contact">
         <div className="section-title pb-0" data-aos="fade-up">
           <h2>Still have questions?</h2>
           <p style={{ margin: "auto auto 25px" }}>
@@ -320,7 +266,7 @@ function App() {
             </button>
           </div>
         </div>
-      </section>
+      </section>*/}
       <Footer />
     </>
   );

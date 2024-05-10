@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../logo.png';
 
 const Header = () => {
     const [mobileNavVisible, setMobileNavVisible] = useState(false);
@@ -28,7 +29,7 @@ const Header = () => {
         <header id="header" className={`header fixed-top ${isSticky ? 'header-scroll' : ''}`}>
             <div className="container d-flex justify-content-between">
                 <Link href="/" className="logo me-auto me-lg-0">
-                    <img src="/logo.png" alt="[Company Name]" height={25} />
+                    <img src={logo} alt="[Company Name]" height={25} />
                 </Link>
                 <nav
                     id="navbar"
