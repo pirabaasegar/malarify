@@ -1,7 +1,7 @@
 .divider {
     border-color: #b8b8b8 !important;
     margin: auto;
-    width: 70%;
+    width: 70% !important;
 }
 
 .header {
@@ -70,6 +70,7 @@
     color: #fff;
     line-height: 1.1;
     text-align: center;
+    width: 75%;
 }
 
 .hero-text p {
@@ -96,9 +97,10 @@
 }
 
 footer {
-    background-color: #fbfbfb;
     padding: 60px 3rem;
     padding-bottom: 1.5rem;
+    font-size: 15px;
+    background-color: #fbfbfb;
 }
 
 footer ul {
@@ -114,6 +116,30 @@ footer hr {
 
 footer ul li {
     margin-bottom: 10px;
+}
+
+
+footer .logo img {
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #939393;
+}
+
+footer span {
+    color: #939393;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    color: #8dc643;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+footer ul li i {
+    padding-right: 10px;
 }
 
 #emailsub [type="email"] {
@@ -153,15 +179,6 @@ footer ul li {
 #emailsub [type="submit"]:hover {
     background: #8dc643;
     color: #ffffff;
-}
-
-.footer-title {
-    margin-bottom: 15px;
-    color: #8dc643;
-}
-
-footer ul li i {
-    padding-right: 10px;
 }
 
 section {
@@ -465,8 +482,4 @@ button:focus:not(:focus-visible) {
     margin: 1.5rem auto;
     margin-bottom: 30px;
     opacity: 1;
-}
-
-footer .logo img {
-    margin-bottom: 15px;
 }

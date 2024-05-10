@@ -16,42 +16,26 @@ function App() {
                 <div className="hero-text" data-aos="fade-up">
                     <h1>About Us</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
-                        efficitur massa sit amet cursus.
+                        Malarify Drones revolutionizes healthcare access in Nigeria by strategically deploying unmanned aerial vehicles to deliver life-saving treatments swiftly to underserved communities, fostering economic viability, promoting equity, and paving the way for a resilient healthcare system.
                     </p>
                 </div>
             </div>
             <section id="overview" className="overview" data-aos="fade-up">
                 <div className="section-title pb-0">
-                    <h2>Our Vision</h2>
+                    <h2 style={{ margin: "auto auto 20px" }}>Our Vision</h2>
                 </div>
                 <div className="container">
                     <div className="row justify-content-center row-gap-5">
                         <div className="row justify-content-center gap-5">
                             <div className="col-lg-8 col-md-8">
                                 <p className="text-center">
-                                    Here at Blossom, we want to provide every person with the
-                                    opportunity to overcome their breast cancer in a simpler and
-                                    efficient manner. Usual treatments can be significantly harsh
-                                    sometimes with side effects like hair loss, fatigue, infections,
-                                    etc. At Blossom, we want to combat this by making breast cancer
-                                    merely an obstacle rather than a lifelong battle.
+                                    Malarify Drones is driven by a vision to revolutionize healthcare access across Nigeria. By strategically stationing our fleet at every health facility nationwide, we empower underserved communities with swift and reliable delivery of life-saving treatments. With precision, speed, and safety as our pillars, our unmanned aerial vehicles bridge the gap between medical resources and remote areas, ensuring equitable access to healthcare for all.
                                     <br />
                                     <br />
-                                    We are a community of hardworking individuals who want to make the
-                                    world a better place through an improved breast cancer vaccine
-                                    that not only kills the cancer cells, but also trains the body to
-                                    eliminate the tumor if the cancer were to ever come back in later
-                                    years.
+                                    Our commitment extends beyond mere delivery logistics; it's about catalyzing profound change. Malarify Drones not only saves lives but also fosters economic viability by minimizing infrastructure costs and optimizing resource allocation. By directly reaching underserved regions, we mitigate long-term healthcare expenses, contributing to the economic sustainability of the nation.
                                     <br />
                                     <br />
-                                    At Blossom, it is essential that the workers feel a connection to
-                                    the problem and are passionate about solving this issue with our
-                                    vision. We encourage a work environment where as a team, we are
-                                    inspired by the vision of the company and everyday are striving to
-                                    reach our goal.
+                                    At the heart of our endeavor lies the profound impact on individuals and communities. Through innovation and efficiency, we pave the way for a healthier, more equitable future for Nigeria. By delivering essential medical supplies swiftly and reliably, we promote equity, empower communities, and lay the foundation for a resilient healthcare system capable of meeting the nation's needs, today and tomorrow.
                                 </p>
                             </div>
                         </div>
@@ -60,44 +44,36 @@ function App() {
             </section>
             <hr className="divider" />
             <section id="values" className="values section-bg" data-aos="fade-in">
-                <div className="section-title pb-0">
-                    <h2>Our Values</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam.
-                    </p>
+                <div className="section-title pb-0" data-aos="fade-in">
+                    <span>Team Values</span>
+                    <h2>Guiding Principles of Malarify Drones</h2>
                 </div>
                 <div className="container">
                     <div className="row row-gap-5">
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="icon-box">
-                                <i className="bi bi-sliders" />
-                                <h4>Personalized Care</h4>
+                                <i class="bi bi-bullseye"></i>
+                                <h4>Precision</h4>
                                 <p>
-                                    Tailored assistance for daily activities, medication management,
-                                    and companionship to support independence and well-being.
+                                    We prioritize accuracy in our drone deliveries, ensuring that essential medical supplies reach even the most remote communities with pinpoint efficiency.
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="icon-box">
-                                <i className="bi bi-cpu" />
-                                <h4>Technology Integration</h4>
+                                <i class="bi bi-lightning"></i>
+                                <h4>Empowerment</h4>
                                 <p>
-                                    Advanced monitoring technologies to track health metrics,
-                                    medication adherence, and provide real-time communication with
-                                    caregivers.
+                                    Through innovative technology, we empower underserved regions by bridging the gap between healthcare resources and those in need, fostering a healthier and more resilient future for all.
                                 </p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="icon-box">
-                                <i className="bi bi-house" />
-                                <h4>Home Safety Assessment</h4>
+                                <i class="bi bi-heart"></i>
+                                <h4>Compassion</h4>
                                 <p>
-                                    Evaluation of home environment to identify and address potential
-                                    safety hazards, ensuring a secure living space for seniors.
+                                    Our commitment to saving lives drives every aspect of our work, as we strive to bring hope and healing to every corner of Nigeria with empathy and dedication.
                                 </p>
                             </div>
                         </div>
@@ -106,14 +82,9 @@ function App() {
             </section>
             <hr className="divider" />
             <section id="team" className="team">
-                <div className="section-title pb-0">
-                    <h2>Our Team</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam.Maecenas at turpis vitae dui laoreet interdum. Nulla malesuada
-                        efficitur massa sit amet cursus.
-                    </p>
+            <div className="section-title pb-0" data-aos="fade-in">
+                    <span>Our Team</span>
+                    <h2>Meet the Minds Behind Malarify Drones</h2>
                 </div>
                 <div className="container">
                     <div className="row justify-content-center row-gap-5">
@@ -127,7 +98,7 @@ function App() {
                                 />
                             </div>
                             <div className="col-lg-5 col-md-6">
-                                <h2 className="fw-bold m-0" style={{ color: "#185ee0" }}>
+                                <h2 className="fw-bold m-0" style={{ color: "#8dc643" }}>
                                     Pirabaa Segar&nbsp;&nbsp;
                                     <a href="https://www.linkedin.com/in/pirabaasegar/">
                                         <i className="bi bi-linkedin" />
@@ -158,7 +129,7 @@ function App() {
                                 />
                             </div>
                             <div className="col-lg-5 col-md-6">
-                                <h2 className="fw-bold m-0" style={{ color: "#185ee0" }}>
+                                <h2 className="fw-bold m-0" style={{ color: "#8dc643" }}>
                                     Gaurav Sharma&nbsp;&nbsp;
                                     <a href="">
                                         <i className="bi bi-linkedin" />
@@ -189,7 +160,7 @@ function App() {
                                 />
                             </div>
                             <div className="col-lg-5 col-md-6">
-                                <h2 className="fw-bold m-0" style={{ color: "#185ee0" }}>
+                                <h2 className="fw-bold m-0" style={{ color: "#8dc643" }}>
                                     Gurtaj Othi&nbsp;&nbsp;
                                     <a href="https://www.linkedin.com/in/gurtajothi/">
                                         <i className="bi bi-linkedin" />
@@ -220,7 +191,7 @@ function App() {
                                 />
                             </div>
                             <div className="col-lg-5 col-md-6">
-                                <h2 className="fw-bold m-0" style={{ color: "#185ee0" }}>
+                                <h2 className="fw-bold m-0" style={{ color: "#8dc643" }}>
                                     Hayyan Fahad&nbsp;&nbsp;
                                     <a href="">
                                         <i className="bi bi-linkedin" />
@@ -251,7 +222,7 @@ function App() {
                                 />
                             </div>
                             <div className="col-lg-5 col-md-6">
-                                <h2 className="fw-bold m-0" style={{ color: "#185ee0" }}>
+                                <h2 className="fw-bold m-0" style={{ color: "#8dc643" }}>
                                     Kulveer Purba&nbsp;&nbsp;
                                     <a href="">
                                         <i className="bi bi-linkedin" />

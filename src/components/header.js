@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../logo.png';
 
 const Header = () => {
@@ -28,9 +28,9 @@ const Header = () => {
     return (
         <header id="header" className={`header fixed-top ${isSticky ? 'header-scroll' : ''}`}>
             <div className="container d-flex justify-content-between">
-                <Link href="/" className="logo me-auto me-lg-0">
+                <NavLink to="/" className="logo me-auto me-lg-0">
                     <img src={logo} alt="[Company Name]" height={25} />
-                </Link>
+                </NavLink>
                 <nav
                     id="navbar"
                     className="navbar order-last order-lg-0 p-0"
@@ -38,19 +38,19 @@ const Header = () => {
                 >
                     <ul>
                         <li>
-                            <Link to="/" className="nav-link" activeClassName="active">
+                            <NavLink exact to="/" className="nav-link" activeClassName="active">
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/solution" className="nav-link" activeClassName="active">
+                            <NavLink to="/solution" className="nav-link" activeClassName="active">
                                 Our Solution
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/about" className="nav-link" activeClassName="active">
+                            <NavLink to="/about" className="nav-link" activeClassName="active">
                                 About Us
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                     <i
@@ -61,19 +61,19 @@ const Header = () => {
                 <nav id="mobile-nav" className={`mobile-nav ${mobileNavVisible ? 'mobile-nav-show' : ''}`}>
                     <ul>
                         <li>
-                            <Link to="/" className="nav-link" activeClassName="active">
+                            <NavLink exact to="/" className="nav-link" activeClassName="active">
                                 Home
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/solution" className="nav-link" activeClassName="active">
+                            <NavLink to="/solution" className="nav-link" activeClassName="active">
                                 Our Solution
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/about" className="nav-link" activeClassName="active">
+                            <NavLink to="/about" className="nav-link" activeClassName="active">
                                 About Us
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>

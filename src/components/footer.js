@@ -8,46 +8,64 @@ const Footer = () => {
             <div className="container">
                 <div className="row pb-4 gap-5">
                     <div className="col-lg-4 col-md-6">
-                    <Link href="/" className="logo me-auto me-lg-0">
-                        <img src={logo} alt="[Company Name]" height={25} />
-                    </Link>
+                        <Link href="/" className="logo me-auto me-lg-0">
+                            <img src={logo} alt="[Company Name]" height={25} />
+                        </Link>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                            ad minim veniam.
+                            Malarify Drones innovates Nigerian healthcare with strategic UAV deployment, swiftly delivering treatments to underserved areas, fostering economic viability, equity, and healthcare resilience.
                         </p>
                     </div>
-                    <div className="col-lg-3 col-md-6">
-                        <h3 className="footer-title">Pages</h3>
+                    <div className="col-lg-2 col-md-6">
+                        <h3 className="footer-title">Product</h3>
                         <ul>
                             <li>
                                 <Link to="/" className="nav-link">
-                                    Home
+                                    How it Works
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/solution" className="nav-link">
-                                    Our Solution
+                                    Features
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/about" className="nav-link">
-                                    About Us
+                                    Impact
                                 </Link>
                             </li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                    <div className="col-lg-2 col-md-6">
+                        <h3 className="footer-title">About Us</h3>
+                        <ul>
+                            <li>
+                                <Link to="/about" className="nav-link">
+                                    The Vision
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/about" className="nav-link">
+                                    Team Values
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/about" className="nav-link">
+                                    Members
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-2 col-md-2">
                         <h3 className="footer-title">Contact Info</h3>
                         <ul>
                             <li>
-                                <a href="#">
+                                <a href="tel:+1234567890">
                                     <i className="bi bi-telephone-fill" /> +1 (123) 456-7890
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i className="bi bi-envelope-fill" /> info@malarify.ca
+                                <a href="mailto:malarify@gmail.com">
+                                    <i className="bi bi-envelope-fill" /> malarify@gmail.com
                                 </a>
                             </li>
                             <li>
@@ -61,7 +79,7 @@ const Footer = () => {
                 <hr />
                 <div className="row">
                     <span className="text-center">
-                        © <Link to="/">Malarify</Link>. All Rights Reserved.
+                        © 2024 - <Link to="/">Malarify</Link>&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved
                     </span>
                 </div>
             </div>

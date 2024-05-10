@@ -35,7 +35,7 @@ function App() {
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <p>
                 In Nigeria, the burden of malaria is immense, with over 34% of global cases reported within its borders. Tragically, a significant number of lives are lost each year due to the inefficiency of transporting essential malaria treatments. This ineffective transportation system contributes to delays in delivering medications to those in need, leading to preventable deaths and exacerbating the already dire malaria crisis in the country. The lack of proper infrastructure and logistical support compounds the challenges of distributing malaria treatments efficiently across Nigeria's vast and often remote regions.
               </p>
@@ -70,7 +70,7 @@ function App() {
                 <i className="bi bi-star" />
                 <h4>Equity and Accessibility</h4>
                 <p>
-                  Malarify Drones revolutionize healthcare access, delivering life-saving treatments swiftly to underserved areas, promoting equity and empowering communities.
+                  Malarify Drones revolutionize healthcare access, delivering life-saving treatments swiftly to underserved areas and promoting equity.
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ function App() {
                 className="img-fluid"
               />
             </div>
-            <div className="col-lg-5 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <p data-aos="fade-up">
                 With the introduction of Malarify Drones, Nigeria stands at the cusp of a transformative shift in healthcare accessibility. Experts commend the innovative approach, recognizing its potential to significantly reduce the burden of malaria and improve overall healthcare outcomes. By strategically stationing drones at every health facility and utilizing cutting-edge technology for swift and reliable deliveries, Malarify Drones addresses the critical issue of transportation inefficiency plaguing the nation. This solution not only saves lives by ensuring timely access to essential treatments but also fosters economic sustainability by minimizing infrastructure costs and optimizing resource allocation.
               </p>
