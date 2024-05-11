@@ -331,6 +331,7 @@ button:focus:not(:focus-visible) {
 
     .header {
         padding: 15px 20px !important;
+        margin-top: 12px;
     }
 
     .hero-text h1:nth-child(2) {

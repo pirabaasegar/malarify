@@ -27,7 +27,7 @@ const Header = () => {
 
     return (
         <header id="header" className={`header fixed-top ${isSticky ? 'header-scroll' : ''}`}>
-            <div className="container d-flex justify-content-between">
+            <div className="container d-flex justify-content-between align-items-center">
                 <NavLink to="/" className="logo me-auto me-lg-0">
                     <img src={logo} alt="[Company Name]" height={25} />
                 </NavLink>
